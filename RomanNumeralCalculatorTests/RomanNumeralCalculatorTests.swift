@@ -21,7 +21,7 @@ class RomanNumeralCalculatorTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testToRoman() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertEqual(toRoman(1), "I")
